@@ -1,0 +1,13 @@
+name: qiskit_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - qiskit
+      - qiskit-aer
+
+
+## Commands : conda env create -f qiskit_env.yml
